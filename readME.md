@@ -2,7 +2,7 @@
 
 ## Description
 
-    The objective of this project is to further affirm our understanding of progressive web applications. Where it is necessary to have tools in place to assist the program without using the internet. With service workers, plugins, and manifests we are using elements within the DOM itself to store data for the application. This project really emphasized how much work the browser along with the DOM assist with the processing of information for an application
+The objective of this project is to further affirm our understanding of progressive web applications. Where it is necessary to have tools in place to assist the program without using the internet. With service workers, plugins, and manifests we are using elements within the DOM itself to store data for the application. This project really emphasized how much work the browser along with the DOM assist with the processing of information for an application
 
 ## Installation
 

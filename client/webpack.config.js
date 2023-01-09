@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'TODOs List'
+        title: 'JATE'
       }),
 
       new InjectManifest({
@@ -28,18 +28,22 @@ module.exports = () => {
         swDest: 'src-sw.js',
       }),
 
-      new GenerateSW(),
       new WebpackPwaManifest({
-        name: '****',
-        short_name: '****',
-        description: '****',
-        background_color: '****',
-        theme_color: '****',
+        name: 'Just Another Text Editor',
+        short_name: 'JATE',
+        description: 'Text Editor',
+        background_color: '#34A1EB',
+        theme_color: '#EBAE34',
         start_url: './',
         publicPath: './',
+        fingerprints: false,
+        inject: true,
+        orientation: "portrait",
+        display: "standalone",
+        crossorigin: "use-credentials",
         icons: [
           {
-            src: path.resolve('assets/images/logo.png'),
+            src: path.resolve('./src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },

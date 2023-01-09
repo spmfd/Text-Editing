@@ -6,11 +6,11 @@ The objective of this project is to further affirm our understanding of progress
 
 ## Installation
 
-If running through your vs vode; in your terminal run 'npm i' to install proper dependencies. Then npm start dev to run the systems concurrently.
+If running through your vs vode; in your terminal run 'npm i' to install proper dependencies. Then npm start dev to run the systems concurrently which will run the program through http://localhost:3000
 
 ## Usage
 
-Please go to my deployed Heroku website to see this application in action
+[Please go to my deployed Heroku website to see this application in action](https://calm-earth-59506.herokuapp.com/ )
 
 ## Credits
 
